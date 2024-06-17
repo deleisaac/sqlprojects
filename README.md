@@ -53,7 +53,7 @@ order by
 limit 10;
 
 ```
-![Top paying role](assets\top_paying.png)
+![Top paying role](projects.sql/assets/top_paying.png)
 
 
 ### 2. Skills For Top Paying Jobs
