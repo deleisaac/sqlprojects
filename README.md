@@ -53,6 +53,8 @@ order by
 limit 10;
 
 ```
+![Top paying role](assets\top_paying.png)
+
 
 ### 2. Skills For Top Paying Jobs
 To understand what skills are required for the top-paying jobs, I joined the job postings with the skills data, providing insights into what employers value for high-compensation roles. 
@@ -87,6 +89,8 @@ INNER JOIN skills_dim on skills_job_dim.skill_id = skills_dim.skill_id
 ORDER BY
     salary_year_avg DESC
 ```
+![Top paying skills](assets\top_paying_skill.png)
+
 ### 3. In-Demand Skills for Data Analysts
 This query helped identify the skills most frequently requested in job postings, directing focus to areas with high demand.
 
@@ -105,7 +109,7 @@ order BY
     demand_count DESC
 limit 5
 ```
-
+![top_indemand_skills](assets\top_indemand_skills.png)
 ### 4. Skills Based On Salary
 Exploring the average salaries assosiated with different skills aveareged which skills are the highest paying
 
@@ -126,6 +130,8 @@ order BY
 limit 25
 
 ```
+
+![skills_to_salary](assets\skills_to_salary.png)
 
 ### 5. Optimal Skills to Learn
 
@@ -173,6 +179,7 @@ ORDER BY
 LIMIT 10
 
 ```
+![optimalskill](assets\optimal_skill.png)
 
 # Conclusions
 
@@ -190,3 +197,5 @@ LIMIT 10
 
 ## Closing Thoughts
 This project enhanced my SQL skills and provided valuable insights into the data analyst job market. The findings from the analysis serve as a guide to prioritizing skill development and job search efforts. Aspiring data analysts can better position themselves in a competitive job market by focusing on high-demand, high-salary skills. This exploration highlights the importance of continuous learning and adaptation to emerging trends in the field of data analytics
+
+[def]: assets\top_paying.png
